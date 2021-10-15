@@ -1,10 +1,12 @@
-package com.company;
+package com.company.actor;
+
+import com.company.Card;
 
 import java.util.ArrayList;
 
 public class Player {
-
-    ArrayList <Card> hand = new ArrayList<>();
+    private
+    ArrayList<Card> hand = new ArrayList<>();
 
     public void printHand(){
         for(Card c: hand){
