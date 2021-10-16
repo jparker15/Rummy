@@ -18,6 +18,7 @@ public class StandardDeck implements Deck{
         for (String s:SUITS) {
             for(int v: VALUES){
                 cards.add(new Card(s,v));
+                System.out.println("L:P");
             }
         }
     }
