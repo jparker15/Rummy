@@ -66,4 +66,6 @@ public class Hand {
         return cards.remove(index);
     }
 
+    public byte getAction(Hand activeHand) { return holder.getAction(this);
+    }
 }
