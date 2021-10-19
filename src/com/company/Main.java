@@ -1,19 +1,16 @@
 package com.company;
 
+import com.company.Game.rummy.Table;
+
 public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-//
-//        Player one = new Player();
-//        Player two = new Player();
-//
-//        Deck d = new Deck();
+        Table table = new Table();
+
+        table.playGame();
+
 //        ArrayList<Card> discard = new ArrayList<>();
-//
-//        Scanner scanner = new Scanner(System.in);
-//
-//        d.shuffle();
 //        System.out.println("Welcome to Rummy");
 //        System.out.println("---");
 //        System.out.println("---\n");
