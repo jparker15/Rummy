@@ -27,8 +27,9 @@ public class Player implements Actor {
     }
 
     private String getAvailableActions(Hand hand){
-        actionsCounts = 2;
-        return "0. Quit\n1. Draw\n2. Discard\n3. Draw from Discards";
+        //number of players actions in the menu
+        actionsCounts = 6;
+        return "\n1. Draw\n2. Draw from Discards\n3. Knock\n4. Sort Cards\n0. Quit";
     }
 
     @Override
